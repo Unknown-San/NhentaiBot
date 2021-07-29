@@ -1,6 +1,6 @@
 from telethon import events
 import Helper.formating_results as format
-from API.nhentaiapi import nhentaiapi as nh
+from API.nhentaiapi import Nhentaiapi as nh
 from config import bot
 
 class Nhentai():
@@ -10,7 +10,7 @@ class Nhentai():
         if '/nh' == event.raw_text:
             await bot.send_message(
                 event.chat_id,
-                'Command must be used like this\n/nh <hentai code\nexample: /nh 339989'
+                'Command must be used like this\n/nh <hentai code\nexample: /nh 848264'
             )
         elif '/nh' in event.raw_text:
             text = event.raw_text.split()

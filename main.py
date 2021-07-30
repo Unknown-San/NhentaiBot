@@ -1,5 +1,5 @@
-from Plugins.starter import start
-from Plugins.nhentai import Nhentai
+from API.starter import start
+from API.nhentai import Nhentai
 from config import bot
 
 try:

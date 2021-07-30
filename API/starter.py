@@ -1,5 +1,5 @@
   
-from Helper.helper import start_text, help_text
+from helper import start_text, help_text
 from config import bot
 from telethon import events
 
